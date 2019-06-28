@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	Makefile	/^CC = gcc$/;"	m
+DATE_MAX_LENGTH	headers.h	14;"	d
+DELIVERY_REPORT_SMS_DELIVERED	headers.h	12;"	d
+DELIVERY_REPORT_SMS_SENT	headers.h	11;"	d
+FALSE	headers.h	17;"	d
+GsmClose	gsmmodem.c	/^int GsmClose( int port)$/;"	f
+GsmGetIMEINumber	gsmmodem.c	/^int GsmGetIMEINumber(int port, char *imeiNumber)$/;"	f
+GsmGetManufacturerInfo	gsmmodem.c	/^int GsmGetManufacturerInfo(int port, char *manufacturer, char *modelNumber)$/;"	f
+GsmGetMessageCenterNumber	gsmmodem.c	/^int GsmGetMessageCenterNumber(int port,int *smscNumber)$/;"	f
+GsmGetNetworkRegistrationSIMStaus	gsmmodem.c	/^int GsmGetNetworkRegistrationSIMStaus(int port, int *status, char *networkProvider)$/;"	f
+GsmGetSIMStaus	gsmmodem.c	/^int GsmGetSIMStaus(int port, int *status)$/;"	f
+GsmGetSignalStength	gsmmodem.c	/^int GsmGetSignalStength(int port, char *signalStrength)$/;"	f
+GsmOpen	gsmmodem.c	/^int GsmOpen(int *port ,int baudRate)$/;"	f
+GsmRecieveSms	gsmmodem.c	/^int GsmRecieveSms(int port, char *messageIndex, char *senderPhoneNumber, char *dateTimeStamp, char *message, int messageSize)$/;"	f
+GsmSendSms	gsmmodem.c	/^int GsmSendSms(int port)$/;"	f
+IMEI_NUMBER_MAX_LENGTH	headers.h	13;"	d
+OBJ	Makefile	/^OBJ = main.o gsmmodem.o mainmenu.o  gsmdelonesms.o gsmdelsmsmenu.o gsmdelsms.o password.o $/;"	m
+SendATCommand	gsmmodem.c	/^int SendATCommand(int port, char *commandString, int terminate, char *responseString)$/;"	f
+TIME_MAX_LENGTH	headers.h	15;"	d
+TRUE	headers.h	16;"	d
+_HEADERS_H_	headers.h	2;"	d
+_PROTOTYPE_H_	prototype.h	2;"	d
+delonesms	gsmdelonesms.c	/^int delonesms(int port)$/;"	f
+delsmsmenu	gsmdelsmsmenu.c	/^int delsmsmenu()$/;"	f
+gsmdelsms	gsmdelsms.c	/^int gsmdelsms(int port)$/;"	f
+main	main.c	/^int main(void)$/;"	f
+mainmenu	mainmenu.c	/^int mainmenu()$/;"	f
+password	password.c	/^int password()$/;"	f
